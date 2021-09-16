@@ -42,6 +42,10 @@ body{
     align-items: flex-start;
 }
 
+.media span {
+    padding-right: 5px;
+}
+
 .media-body {
     -webkit-box-flex: 1;
     -ms-flex: 1;
@@ -63,4 +67,26 @@ body{
 }
 .mr-1, .mx-1 {
     margin-right: 0.625rem !important;
+}
+
+.back-btn {
+    font-size: 1.25rem;
+    display: flex;
+    vertical-align: middle;
+    margin-left: 1.5rem;
+    color: #f06060;
+    border-radius: 8px;
+    padding: 0.5rem 0.75rem;
+}
+
+.back-btn:hover {
+    background-color: #f06060;
+    color: #fff;
+    transition: transform 0.2s, opacity 0.2s;
+    transform: scale(1.02);
+}
+
+.back-btn > span {
+    line-height: 20px;
+    vertical-align: middle;
 }
